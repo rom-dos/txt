@@ -1,0 +1,52 @@
+html {
+  font-family: 'Helvetica', sans-serif;
+}
+
+body {
+  box-sizing: border-box;
+  color: #333;
+  font-weight: 100;
+  width: 98%;
+  height: 100%;
+  max-width: 120em;
+  margin: 0 auto;
+  margin-top: 2%;
+  background-color: white;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0rem;
+  padding-top: 0rem;
+  border: 1px solid black;
+  box-shadow: 1px 2px 2px blue;
+  margin-top: 12rem;
+}
+
+div:focus {
+  outline: none;
+}
+
+#top-bar {
+  height: 6px;
+  width: 100%;
+  background: linear-gradient(to right, black, blue);
+  padding: 0;
+  margin: 0;
+}
+#heading {
+  font-size: 32px;
+  padding-top: 30px;
+  width: 80%;
+  margin: 0 auto;
+  border-bottom: 1px dotted blue;
+}
+
+#content {
+  padding-top: 3rem;
+  font-size: 18px;
+  min-height: 200px;
+  width: 80%;
+  margin: 0 auto;
+}

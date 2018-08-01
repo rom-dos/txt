@@ -3,20 +3,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
   <link rel="stylesheet" href="assets/css/style.css">
   <title>txt</title>
 </head>
 <body>
   
   <div class="outer-container">
-    <p id="count">Words:</p>
-    <div class="container">
+    <img src="assets/img/noun_notes.svg" alt="">
+    <p id="count" class="wow fadeIn" data-wow-delay="750ms">Words:</p>
+    <div class="container wow fadeInUp" data-wow-delay="250ms">
       <div id="top-bar"></div>
       <div id="heading" contenteditable="true"></div>
       <div id="content" contenteditable="true"></div>
     </div>
   </div>
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
   <script src="assets/js/Countable.js"></script>
   <script src="assets/js/app.js"></script>
 </body>

@@ -14,9 +14,18 @@ body {
   background-color: white;
 }
 
+img {
+  width: 50px;
+  margin: 0 auto;
+  margin-top: 4rem;
+  display: block;
+  color: blue !important;
+  filter: invert(0.2) sepia(1) saturate(5) hue-rotate(175deg);
+}
+
 #count {
   margin: 0 auto;
-  margin-top: 12rem;
+  margin-top: 4rem;
   margin-bottom: 2rem;
   text-align: center;
   border-bottom: 1px solid blue;

@@ -1,4 +1,3 @@
-
 document.getElementById("heading").innerHTML =
   localStorage["title"] || "Enter title"; // default text
 document.getElementById("content").innerHTML = 

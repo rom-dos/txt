@@ -62,8 +62,15 @@ div:focus {
 
 #content {
   padding-top: 3rem;
+  padding-bottom: 3rem;
   font-size: 18px;
   min-height: 200px;
   width: 80%;
   margin: 0 auto;
+}
+
+@media screen and (max-width: 647px) {
+  .container {
+    margin: 24px;
+  }
 }

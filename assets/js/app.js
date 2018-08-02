@@ -7,7 +7,7 @@ document.getElementById("content").innerHTML =
 setInterval(function() {
   localStorage["title"] = document.getElementById("heading").innerHTML;
   localStorage["text"] = document.getElementById("content").innerHTML;
-})
+}, 1000);
 
 const area = document.getElementById('content');
 const callback = counter => document.getElementById("count").innerHTML = `Words: ${counter.words}`;

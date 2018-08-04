@@ -17,7 +17,7 @@ body {
 img {
   width: 50px;
   margin: 0 auto;
-  margin-top: 4rem;
+  margin-top: -2.2rem;
   display: block;
   color: blue !important;
   filter: invert(0.2) sepia(1) saturate(5) hue-rotate(175deg);
@@ -28,7 +28,7 @@ img {
 
 #count {
   margin: 0 auto;
-  margin-top: 4rem;
+  margin-top: 6rem;
   margin-bottom: 2rem;
   text-align: center;
   border-bottom: 1px solid blue;

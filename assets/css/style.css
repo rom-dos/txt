@@ -22,6 +22,9 @@ img {
   color: blue !important;
   filter: invert(0.2) sepia(1) saturate(5) hue-rotate(175deg);
 }
+.img-dark {
+  filter: invert(7.2) sepia(1) saturate(2) hue-rotate(125deg);
+}
 
 #count {
   margin: 0 auto;
@@ -40,13 +43,18 @@ img {
   border: 1px solid black;
   box-shadow: 1px 2px 2px blue;
 }
+.container-dark {
+  border: 1px solid white;
+  border-top: none;
+  box-shadow: none;
+}
 
 div:focus {
   outline: none;
 }
 
 #top-bar {
-  height: 6px;
+  height: 8px;
   width: 100%;
   padding: 0;
   margin: 0;
@@ -76,7 +84,7 @@ div:focus {
   margin: 0 auto;
 }
 .dark {
-  background-color: black;
+  background-color: #191919;
   color: white;
 }
 

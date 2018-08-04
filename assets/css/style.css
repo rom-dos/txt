@@ -48,10 +48,17 @@ div:focus {
 #top-bar {
   height: 6px;
   width: 100%;
-  background: linear-gradient(to right, black, blue);
   padding: 0;
   margin: 0;
 }
+.top-bar-light {
+  background: linear-gradient(to right, black, blue);
+}
+
+.top-bar-dark {
+  background: linear-gradient(to right, white, blue);
+}
+
 #heading {
   font-size: 32px;
   padding-top: 30px;
@@ -67,6 +74,21 @@ div:focus {
   min-height: 200px;
   width: 80%;
   margin: 0 auto;
+}
+.dark {
+  background-color: black;
+  color: white;
+}
+
+button {
+  margin-left: 1rem;
+  border: 1px dashed green;
+  border-radius: 12px;
+  padding: 0.5rem;
+  padding-bottom: 0.6rem;
+}
+button:focus {
+  outline: none;
 }
 
 @media screen and (max-width: 647px) {

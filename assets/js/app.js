@@ -11,4 +11,13 @@ setInterval(function() {
 const area = document.getElementById('content');
 const callback = counter => document.getElementById("count").innerHTML = `Words: ${counter.words}`;
 
+const changeThemeBtn = document.querySelector('button');
+const topBar = document.getElementById('top-bar');
+
+changeThemeBtn.addEventListener('click', (e) => {
+  document.body.classList.toggle('dark');
+  topBar.classList.toggle('top-bar-dark');
+  // topBar.classList.toggle('top-bar-light');
+});
+
 Countable.on(area, callback);
